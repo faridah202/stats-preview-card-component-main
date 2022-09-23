@@ -114,11 +114,9 @@ padding: 0;
 
 article{
     background-color:hsl(244, 38%, 16%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
     height: 600px;
+    align-content: center;
     text-align: center;
     padding: 30px;
 }
