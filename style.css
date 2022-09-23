@@ -98,7 +98,8 @@ main{
     align-items: center;
     height: 100vh;
     margin: auto;
-}.card-img{
+}
+.card-img{
     height: 100%;
     object-fit: cover;
     mix-blend-mode: multiply;
@@ -113,8 +114,11 @@ padding: 0;
 
 article{
     background-color:hsl(244, 38%, 16%);
-    width: 50%;
-    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
     text-align: center;
     padding: 30px;
 }
@@ -145,5 +149,15 @@ h2{
     text-transform: uppercase;
     font-size: 0.699em;
     color: hsla(0, 0%, 100%, 0.6);
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 2em;
+    font-family: 'Inter';
+    
+}
+p{  font-family:'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75); 
+    font-size: 0.85em;
 }
 }
