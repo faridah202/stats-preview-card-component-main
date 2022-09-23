@@ -125,9 +125,6 @@ article{
 section{
     padding: 40px;
     margin: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: auto;
 }
 .first{
